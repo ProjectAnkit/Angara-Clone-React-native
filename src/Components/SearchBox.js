@@ -13,12 +13,10 @@ const SearchBox = () => {
     return <></>
   }
 
-  const [searchText, setSearchText] = useState('');
-
   return (
     <View style={{ backgroundColor: 'white', borderRadius: 10, borderWidth: 1, borderColor: '#d3d3d3', flexDirection: 'row', alignItems: 'center' }}>
       <AntDesign name="search1" size={20} color="grey" style={{ marginHorizontal: 10 }} />
-      <TextInput cursorColor={"#d3d3d3"} placeholder="Search Products...." value={searchText} onChangeText={(text)=> setSearchText(text)} style={{ flex: 1, padding: 10, fontFamily: 'Poppins' }} />
+      <TextInput cursorColor={"#d3d3d3"} placeholder="Search Products...." style={{ flex: 1, padding: 10, fontFamily: 'Poppins' }} />
     </View>
   );
 };
