@@ -42,6 +42,7 @@ const RatnaType = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingHorizontal: 10,
   },
   text: {
     fontSize: 16,
@@ -57,20 +58,20 @@ const styles = StyleSheet.create({
     flexDirection: 'Column',
     alignItems: 'center',
     marginBottom: 10,
-    padding : 10,
+    padding : 4,
   },
   ratanasContainer: {
     marginRight: 10,
-    height: 70,
-    width: 70,
+    height: 60,
+    width: 60,
     borderRadius: 30,
     zIndex: 1,
     position: "absolute",
     top: -15,
   },
   box: {
-    height: 110,
-    width: 110,
+    height: 100,
+    width: 100,
     justifyContent: "flex-end",
     paddingHorizontal: 10,
     paddingBottom: 10,

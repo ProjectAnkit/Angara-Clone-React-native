@@ -86,9 +86,10 @@ const styles = StyleSheet.create({
         alignSelf: "center",
     },
     CategoryHeader:{
+        marginTop: 10,
         fontSize: 18,
         paddingLeft: 10,
-        marginBottom: 20,
+        marginBottom: 10,
         fontFamily: "Poppins",
     },
     mainContainer: {

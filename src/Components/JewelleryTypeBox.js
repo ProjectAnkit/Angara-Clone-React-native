@@ -47,10 +47,10 @@ const styles = StyleSheet.create({
   boxContainer: {
     flexDirection: 'row',
     marginHorizontal: 8,
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
   box: {
-    width: 180,
+    width: 160,
     height: 90,
     backgroundColor: '#E5E5EA',
     borderRadius: 10,
@@ -68,13 +68,13 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   title: {
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: '400',
     marginTop: 10,
     fontFamily: 'Poppins', 
   },
   subtitle: {
-    fontSize: 14,
+    fontSize: 10,
     color: '#777',
     fontStyle: 'italic',
     fontFamily: 'Poppins', 

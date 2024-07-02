@@ -34,10 +34,10 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 22,
+    fontSize: 18,
     fontWeight: '500',
     color: '#333',
-    marginBottom: 20,
+    marginBottom: 10,
     fontFamily: 'Poppins',
   },
   input: {

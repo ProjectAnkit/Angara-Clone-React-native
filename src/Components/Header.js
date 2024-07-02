@@ -36,18 +36,13 @@ const styles = StyleSheet.create({
     position: "relative",
     flexDirection: "row",
     justifyContent: "space-between",
-    padding: 20,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#333',
-    fontFamily: 'Poppins',
+    padding: 10,
   },
   Banner:{
     flexDirection: "row",
   },
   Logo:{
+    marginTop: 8,
     fontWeight: "600",
     fontSize: 16,
     paddingLeft: 65,
@@ -58,6 +53,7 @@ const styles = StyleSheet.create({
     alignSelf: "flex-end",
   },
   iconstyle:{
+    alignSelf: "center",
     paddingHorizontal: 8,
   }
 });

@@ -71,7 +71,7 @@ const HomeScreen = () => {
                 <SocialLinks/>
             </View>
 
-            <View>
+            <View style={styles.PaymentPartners}>
                 <PaymentPartners/>
             </View>
 
@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     fixedHeader: {
+        paddingHorizontal: 8,
         position: 'relative',
         top: 0,
         left: 0,
@@ -114,6 +115,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     RatnaType:{
+        paddingHorizontal: 10,
         marginBottom: 20,
     },
     Banner2:{
@@ -124,13 +126,13 @@ const styles = StyleSheet.create({
         marginBottom: 35,
     },
     partnerlogo:{
-        marginBottom: 30,
+        marginBottom: 50,
     },
     InsiderView:{
         marginBottom: 20,
     },
     MoreOptions: {
-        marginBottom: 40,
+        marginBottom: 20,
     },
     SignupSection:{
         marginBottom: 15,
@@ -138,6 +140,9 @@ const styles = StyleSheet.create({
     SocialLinks:{
         marginBottom: 20,
     },
+    PaymentPartners:{
+        paddingHorizontal: 10,
+    }
 
 })
 

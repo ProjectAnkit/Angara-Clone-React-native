@@ -25,18 +25,19 @@ const PaymentPartners = () => {
 const styles = StyleSheet.create({
   container:{
     flex: 1,
+    paddingHorizontal: 10,
   },
   box: {
     flex: 1,
     flexDirection: 'row',
     alignItems: "center",
     justifyContent: "center",
-    padding: 10,
+    paddingHorizontal: 2,
   },
   partner: {
     width: 60,
     height: 60,
-    marginHorizontal: 10,
+    marginHorizontal: 5,
     margin: 5,
     resizeMode: 'contain',
   },

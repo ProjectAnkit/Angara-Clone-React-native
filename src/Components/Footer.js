@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightgrey',
   },
   text: {
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: "300",
     fontFamily: 'Poppins', 
   },

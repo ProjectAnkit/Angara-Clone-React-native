@@ -43,7 +43,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   text: {
-    fontSize: 20,
+    alignSelf: "center",
+    fontSize: 16,
     fontFamily: 'Poppins', 
   },
   box: {
