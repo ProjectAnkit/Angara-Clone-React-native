@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     fixedHeader: {
-        paddingHorizontal: 8,
+        paddingHorizontal: 10,
         position: 'relative',
         top: 0,
         left: 0,

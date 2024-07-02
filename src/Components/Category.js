@@ -47,9 +47,9 @@ const Category = () => {
     }
 
     const category = [
-        { title: "Rings", Icon: <MaterialCommunityIcons name="ring" size={24} color="black" /> },
-        { title: "Pendants", Icon: <MaterialCommunityIcons name="necklace" size={24} color="black" /> },
-        { title: "Bracelets", Icon: <FontAwesome name="circle-o-notch" size={24} color="black" /> }
+        { title: "Rings", Icon: <MaterialCommunityIcons name="ring" size={20} color="black" /> },
+        { title: "Pendants", Icon: <MaterialCommunityIcons name="necklace" size={20} color="black" /> },
+        { title: "Bracelets", Icon: <FontAwesome name="circle-o-notch" size={20} color="black" /> }
     ]
 
     return (
@@ -99,16 +99,17 @@ const styles = StyleSheet.create({
     },
     container: {
         backgroundColor: "#e7e7e7",
+        alignItems: "center",
         height: 35,
         width: "auto",
         padding: 3,
         borderRadius: 5,
         paddingHorizontal: 6,
         flexDirection: "row",
-        margin: 10,
+        margin: 5,
     },
     text: {
-        fontSize: 18,
+        fontSize: 14,
         marginHorizontal: 10,
         fontFamily: "Poppins",
     },

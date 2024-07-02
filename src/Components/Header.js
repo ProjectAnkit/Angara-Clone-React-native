@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
@@ -17,13 +17,20 @@ const Header = () => {
   return (
     <View style={styles.container}>
        <View style={styles.Banner}>
-          <Ionicons name="menu-outline" size={28} color="black" style={styles.iconstyle}/>
+          <TouchableOpacity>
+             <Ionicons name="menu-outline" size={28} color="black" style={[styles.iconstyle,{marginTop: 6}]}/>
+          </TouchableOpacity>
           <Text style={styles.Logo}>VEDIC GEMS</Text>
        </View>
 
        <View style={styles.options}>
-         <Ionicons name="person-outline" size={24} color="black" style={styles.iconstyle}/>
-         <SimpleLineIcons name="handbag" size={24} color="black" style={styles.iconstyle}/>
+         <TouchableOpacity>
+            <Ionicons name="person-outline" size={24} color="black" style={styles.iconstyle}/>
+         </TouchableOpacity>
+         
+         <TouchableOpacity>
+            <SimpleLineIcons name="handbag" size={24} color="black" style={styles.iconstyle}/>
+         </TouchableOpacity>
        </View>
     </View>
   );
@@ -36,7 +43,7 @@ const styles = StyleSheet.create({
     position: "relative",
     flexDirection: "row",
     justifyContent: "space-between",
-    padding: 10,
+    paddingVertical: 10,
   },
   Banner:{
     flexDirection: "row",
@@ -54,7 +61,7 @@ const styles = StyleSheet.create({
   },
   iconstyle:{
     alignSelf: "center",
-    paddingHorizontal: 8,
+    paddingRight: 13,
   }
 });
 
