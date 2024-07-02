@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "image": "https://pngimg.com/uploads/diamond/diamond_PNG6692.png",
+        "name": "Diamond",
+        "hname": "(Heera)"
+    },
+    {
+        "id": 2,
+        "image": "https://static.vecteezy.com/system/resources/previews/027/181/788/non_2x/blue-diamond-gemstone-sapphire-blue-generative-ai-free-png.png",
+        "name": "Blue Sapphire",
+        "hname": "(Neelam)"
+    },
+    {
+        "id": 3,
+        "image": "https://png.pngtree.com/png-clipart/20230410/original/pngtree-ruby-red-crystals-png-image_9042677.png",
+        "name": "Ruby",
+        "hname": "(Manikya)"
+    },
+    {
+        "id": 4,
+        "image": "https://careems.com/uploads/special-gemstone/product/14/931599546906.png",
+        "name": "Yellow Sapphire",
+        "hname": "(Pukhra)"
+    },
+    {
+        "id": 5,
+        "image": "https://clipart-library.com/image_gallery2/Pearl-PNG-Images.png",
+        "name": "Freshwater Cultured Pearl",
+        "hname": "(Moti)"
+    },
+    {
+        "id": 6,
+        "image": "https://static.vecteezy.com/system/resources/previews/027/181/788/non_2x/blue-diamond-gemstone-sapphire-blue-generative-ai-free-png.png",
+        "name": "Blue Sapphire",
+        "hname": "(Neelam)"
+    }
+    
+]

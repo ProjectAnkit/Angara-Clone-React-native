@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Ethical Sourcing",
+        "image": "https://cdn.pixabay.com/photo/2016/07/08/11/03/earth-1504059_1280.png"
+    },
+    {
+        "id": 2,
+        "title": "Handcrafted to Perfection",
+        "image": "https://png.pngtree.com/png-clipart/20210425/original/pngtree-beautiful-diamond-ring-creative-black-and-white-monochrome-graffiti-png-image_6254488.png"
+    },
+    {
+        "id": 3,
+        "title": "Step by Step Inspection",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Hand_Gesture_-_Holding_a_Magnifying_Glass_Vector.svg/1280px-Hand_Gesture_-_Holding_a_Magnifying_Glass_Vector.svg.png"
+    },
+    {
+        "id": 4,
+        "title": "High Speed Service",
+        "image": "https://cdn-icons-png.flaticon.com/512/2178/2178401.png"
+    }
+]
