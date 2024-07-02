@@ -20,16 +20,13 @@ import Footer from '../Components/Footer'
 
 const HomeScreen = () => {
     return(
-        <ScrollView>
             <SafeAreaView style={styles.container}>
-            <View>
+            <View style={styles.fixedHeader}>
                 <Header/>
-            </View>
-            
-            <View style={styles.search}>
                 <SearchBox/>
             </View>
 
+           <ScrollView contentContainerStyle={styles.scrollContent}>
             <View style={styles.JewelleryCategory}>
                 <JewelleryCategory/>
             </View>
@@ -82,8 +79,8 @@ const HomeScreen = () => {
                 <Footer/>
             </View>
 
-        </SafeAreaView>
         </ScrollView>
+        </SafeAreaView>
     )
 }
 
@@ -91,9 +88,20 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    search:{
-        paddingHorizontal: 15,
-    },
+    fixedHeader: {
+        position: 'relative',
+        top: 0,
+        left: 0,
+        right: 0,
+        zIndex: 10,
+        backgroundColor: 'white',
+        paddingBottom: 10,
+      },
+
+      scrollContent: {
+        paddingTop: 20, 
+      },
+
     JewelleryCategory:{
         alignSelf: "center",
         paddingHorizontal: 15,

@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   Logo:{
-    fontWeight: "500",
+    fontWeight: "600",
     fontSize: 16,
     paddingLeft: 65,
     fontFamily: 'Poppins',
