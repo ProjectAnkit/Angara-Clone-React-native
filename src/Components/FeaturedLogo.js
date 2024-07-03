@@ -17,6 +17,7 @@ const FeaturedLogo = () => {
     <View>
       <Text style={styles.logoText}>Featured in</Text>
       <FlatList
+       showsHorizontalScrollIndicator={false}
        data={FeaturedLogoData}
        keyExtractor={(item)=> item.id.toString()}
        renderItem={({item})=> (<Image source={{uri: item.image}} style={styles.image}></Image>)}
