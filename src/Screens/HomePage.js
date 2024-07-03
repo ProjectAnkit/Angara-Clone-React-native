@@ -26,7 +26,7 @@ const HomeScreen = () => {
                 <SearchBox/>
             </View>
 
-           <ScrollView contentContainerStyle={styles.scrollContent}>
+           <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
             <View style={styles.JewelleryCategory}>
                 <JewelleryCategory/>
             </View>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet,Image } from 'react-native';
+import { View, Text, StyleSheet,Image, TouchableOpacity } from 'react-native';
 import { useFonts } from 'expo-font';
 
 const Banner = () => {
@@ -18,9 +18,11 @@ const Banner = () => {
 
        <Text style={styles.BannerTitle}>Sparkling Brilliant Ruby</Text>
 
-       <View style={styles.button}>
-          <Text style={styles.buttonText}>SHOP NOW</Text>
-       </View>
+        <TouchableOpacity>
+           <View style={styles.button}>
+              <Text style={styles.buttonText}>SHOP NOW</Text>
+           </View>
+        </TouchableOpacity>
     </View>
   );
 };
