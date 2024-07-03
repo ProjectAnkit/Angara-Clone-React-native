@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     position: "relative",
     flexDirection: 'Column',
     alignItems: 'center',
-    marginBottom: 10,
+    marginBottom: 20,
     padding : 4,
   },
   ratanasContainer: {
@@ -67,13 +67,12 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     zIndex: 1,
     position: "absolute",
-    top: -15,
+    top: -20,
   },
   box: {
     height: 100,
     width: 100,
     justifyContent: "flex-end",
-    paddingHorizontal: 10,
     paddingBottom: 10,
     borderWidth: 0.5,
     borderRadius: 20,
@@ -82,7 +81,7 @@ const styles = StyleSheet.create({
     zIndex: 0,
   },
   title:{
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: "400",
     alignSelf: "center",
     fontFamily: 'Poppins', 
